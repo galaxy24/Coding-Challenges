@@ -1,4 +1,4 @@
-package Codility;
+package HackerEarth;
 
 import java.util.*;
 
