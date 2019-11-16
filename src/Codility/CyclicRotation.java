@@ -43,10 +43,11 @@ class CyclicRotation {
 //	each element of array A is an integer within the range [−1,000..1,000].
 //	In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-	public static int[] solution(int[] A, int K) {
+	/* Solving code goes here: */
+	public static int[] work(int[] A, int K) {
 		if (A.length == K || A.length <= 1) return A;
 		else {
-			int rot = K % A.length;
+			int rot = A.length - (K % A.length);
 			int[] res = new int[A.length];
 			for (int i = 0; i < A.length - rot; i++) res[i] = A[i+rot];
 			for (int i = A.length-rot; i < A.length; i++) res[i] = A[i-A.length+rot]; //A[0]
@@ -54,9 +55,19 @@ class CyclicRotation {
 		}
 	}
 
+	/* Debugging code: */
+	public static int[] solution(int[] A, int K) {
+		System.err.println(Arrays.toString(A));
+		System.err.println(K);
+		int[] solution = work(A, K);
+		System.err.println(Arrays.toString(solution));
+		return solution;
+	}
+
 	public static void main(String[] args) {
 		int[] A = {3, 8, 9, 7, 6};
-		int K = 3;
-		System.out.println(Arrays.toString(solution(A,K)));
+		int K = 8;
+		solution(A,K);
+		// works!!
 	}
 }
