@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class ReversedBinaryNumbers {
+class ReversedBinaryNumbers {
 
 	/**
 	 * https://open.kattis.com/problems/reversebinary

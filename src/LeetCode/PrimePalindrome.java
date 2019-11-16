@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.Arrays;
-
 public class PrimePalindrome {
 //	Find the smallest prime palindrome greater than or equal to N.
 //

@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class HissingMicrophone {
+class HissingMicrophone {
 	/**
 	 * https://open.kattis.com/problems/hissingmicrophone
 	 */

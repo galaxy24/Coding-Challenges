@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Spavanac {
+class Spavanac {
 
 	/**
 	 * https://open.kattis.com/problems/spavanac

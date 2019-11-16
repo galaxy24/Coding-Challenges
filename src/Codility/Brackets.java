@@ -2,7 +2,7 @@ package Codility;
 
 import java.util.Stack;
 
-public class Brackets {
+class Brackets {
 //	A string S consisting of N characters is considered to be properly nested if any of the following conditions is true:
 //
 //	S is empty;

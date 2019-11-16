@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class TakeTwoStones {
+class TakeTwoStones {
 	private int remainingStones;
 	private String winner;
 

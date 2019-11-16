@@ -4,7 +4,7 @@ import java.util.Scanner;
 import static java.lang.StrictMath.floor;
 import static java.lang.StrictMath.log10;
 
-public class QuickEstimates {
+class QuickEstimates {
 
 	/**
 	 * https://open.kattis.com/problems/quickestimate

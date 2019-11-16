@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-class HelpaPhDcandidateout {
+class HelpaPhDcandidateOut {
 
 	/**
 	 * https://open.kattis.com/problems/helpaphd

@@ -2,7 +2,7 @@ package Codility;
 
 import java.util.Arrays;
 
-public class MaxProductOfThree {
+class MaxProductOfThree {
 	//	A non-empty array A consisting of N integers is given. The product of triplet (P, Q, R) equates to A[P] * A[Q] * A[R] (0 ≤ P < Q < R < N).
 //
 //	For example, array A such that:

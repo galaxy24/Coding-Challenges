@@ -3,8 +3,9 @@ package Codility;
 import java.util.HashSet;
 import java.util.Set;
 
-public class PermCheck {
-//	A non-empty array A consisting of N integers is given.
+class PermCheck {
+
+	//	A non-empty array A consisting of N integers is given.
 //
 //	A permutation is a sequence containing each element from 1 to N once, and only once.
 //

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Akcija {
+class Akcija {
 
 	/**
 	 * https://open.kattis.com/problems/akcija

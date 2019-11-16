@@ -3,7 +3,7 @@ package Codility;
 import java.util.HashSet;
 import java.util.Set;
 
-public class MissingInteger {
+class MissingInteger {
 //	This is a demo task.
 //
 //	Write a function:

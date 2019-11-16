@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Bijele {
+class Bijele {
 
 	/**
 	 * https://open.kattis.com/problems/bijele

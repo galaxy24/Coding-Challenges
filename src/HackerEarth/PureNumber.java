@@ -2,7 +2,8 @@ package HackerEarth;
 
 import java.util.*;
 
-public class PureNumber {
+class PureNumber {
+
 //	You are given a special set of pure numbers.
 //
 //	A pure number has the following properties:

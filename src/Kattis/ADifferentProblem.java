@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class ADifferentProblem {
+class ADifferentProblem {
 
 	/**
 	 * https://open.kattis.com/problems/different

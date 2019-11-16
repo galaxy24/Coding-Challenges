@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Trik {
+class Trik {
 
 	/**
 	 * https://open.kattis.com/problems/trik

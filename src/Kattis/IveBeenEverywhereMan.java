@@ -3,7 +3,7 @@ package Kattis;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class IveBeenEverywhereMan {
+class IveBeenEverywhereMan {
 	/**
 	 * https://open.kattis.com/problems/everywhere
 	 */

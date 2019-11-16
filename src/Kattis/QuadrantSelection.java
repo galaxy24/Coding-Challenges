@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class QuadrantSelection {
+class QuadrantSelection {
 
 	/**
 	 * https://open.kattis.com/problems/quadrant

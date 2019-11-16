@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Aaah {
+class Aaah {
 
 	/**
 	 * https://open.kattis.com/problems/aaah

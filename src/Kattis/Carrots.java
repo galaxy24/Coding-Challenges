@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Carrots {
+class Carrots {
 	/**
 	 * https://open.kattis.com/problems/carrots
 	 */

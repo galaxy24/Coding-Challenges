@@ -6,7 +6,7 @@ import java.util.Scanner;
  * https://open.kattis.com/problems/pet
  */
 
-public class Pet {
+class Pet {
 	public static void main(String[] args) {
 		int[] winner = {0, 0};
 		int contestant = 1;

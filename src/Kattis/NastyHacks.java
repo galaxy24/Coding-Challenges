@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class NastyHacks {
+class NastyHacks {
 
 	/**
 	 * https://open.kattis.com/problems/nastyhacks

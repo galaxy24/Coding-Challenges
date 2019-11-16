@@ -6,7 +6,7 @@ import java.util.Arrays;
 	Template file to help coding and testing faster the exercises.
  */
 
-public class AAATemplate {
+class AAATemplate {
 
 	/* Solving code goes here: */
 	private static int work(int[] A){

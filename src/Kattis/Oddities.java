@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Oddities {
+class Oddities {
 
 	/**
 	 * https://open.kattis.com/problems/oddities

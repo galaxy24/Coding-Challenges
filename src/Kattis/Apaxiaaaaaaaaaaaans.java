@@ -3,7 +3,7 @@ package Kattis;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Apaxiaaaaaaaaaaaans {
+class Apaxiaaaaaaaaaaaans {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		char[] array = scanner.next().toCharArray();

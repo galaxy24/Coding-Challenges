@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * https://open.kattis.com/problems/timeloop
  */
-public class StuckInATimeLoop {
+class StuckInATimeLoop {
 
 
 	private int number;

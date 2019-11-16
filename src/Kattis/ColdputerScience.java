@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class ColdputerScience {
+class ColdputerScience {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int occurrences = scanner.nextInt();

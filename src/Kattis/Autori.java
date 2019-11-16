@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Autori {
+class Autori {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String line = scanner.nextLine();

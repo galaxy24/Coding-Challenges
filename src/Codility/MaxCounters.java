@@ -2,8 +2,9 @@ package Codility;
 
 import java.util.Arrays;
 
-public class MaxCounters {
-	//	You are given N counters, initially set to 0, and you have two possible operations on them:
+class MaxCounters {
+
+//	You are given N counters, initially set to 0, and you have two possible operations on them:
 //
 //	increase(X) − counter X is increased by 1,
 //	max counter − all counters are set to the maximum value of any counter.

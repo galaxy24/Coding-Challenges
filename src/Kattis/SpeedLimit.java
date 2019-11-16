@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class SpeedLimit {
+class SpeedLimit {
 
 	/**
 	 * https://open.kattis.com/problems/speedlimit

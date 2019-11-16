@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class LastFactorialDigit {
+class LastFactorialDigit {
 	/**
 	 * https://open.kattis.com/problems/lastfactorialdigit
 	 */

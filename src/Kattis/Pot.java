@@ -2,7 +2,7 @@ package Kattis;
 
 import java.util.Scanner;
 
-public class Pot {
+class Pot {
 
 	/**
 	 * https://open.kattis.com/problems/pot
