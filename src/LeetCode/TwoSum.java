@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+class TwoSum {
 
 	/* Solving code goes here: */
 	private static int[] work(int[] nums, int target){

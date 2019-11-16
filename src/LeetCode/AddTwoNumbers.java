@@ -13,7 +13,7 @@ package LeetCode;
 
 import java.math.BigInteger;
 
-public class AddTwoNumbers{
+class AddTwoNumbers{
 
 	static class ListNode {
 		int val;

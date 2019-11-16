@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class ReverseInteger {
+class ReverseInteger {
 	//	https://leetcode.com/problems/reverse-integer/
 
 	//	Given a 32-bit signed integer, reverse digits of an integer.

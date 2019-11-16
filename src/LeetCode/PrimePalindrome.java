@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class PrimePalindrome {
+class PrimePalindrome {
 //	Find the smallest prime palindrome greater than or equal to N.
 //
 //	Recall that a number is prime if it's only divisors are 1 and itself, and it is greater than 1.
