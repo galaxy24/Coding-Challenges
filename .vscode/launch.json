@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CheaperDrink",
+            "request": "launch",
+            "mainClass": "CheaperDrink",
+            "projectName": "Coding-Challenges_f0514e73"
+        }
+    ]
+}
