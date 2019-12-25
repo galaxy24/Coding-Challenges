@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 
 class CheaperDrink {
 
-    class Tuple implements Comparable<Tuple>{
+    static class Tuple implements Comparable<Tuple>{
 
         String stringRep;
         int value;
