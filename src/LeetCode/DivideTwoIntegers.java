@@ -80,7 +80,7 @@ class DivideTwoIntegers {
 		System.out.println(solution(dividend, divisor));
 
 	//      Problem:
-		
+
 	//		Input:
 	//		-2147483648
 	//				-1
