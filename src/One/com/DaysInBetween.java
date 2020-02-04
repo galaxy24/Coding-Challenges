@@ -18,29 +18,31 @@ public class DaysInBetween {
 	private final boolean inclusive;
 	private int[] firstDate;
 	private int[] secondDate;
-
+	private final int dateComparison;
 
 	public DaysInBetween(String date1, String date2, boolean inclusive){
 		this.inclusive = inclusive;
-		checkDates(date1, date2);
+		dateComparison = checkDates(date1, date2);
 		System.out.print("There are " + diff() + " day(s) between " + Arrays.toString(firstDate) + " and " + Arrays.toString(secondDate));
 		if (inclusive) System.out.println(" (inclusive).");
 		else System.out.println(" (exclusive).");
 	}
 
-	private void checkDates(String date1, String date2){
+	private int checkDates(String date1, String date2){
 		String[] firstDate = date1.split("-");
 		String[] secondDate = date2.split("-");
 
 		this.firstDate = new int[] {Integer.parseInt(firstDate[0]), Integer.parseInt(firstDate[1]), Integer.parseInt(firstDate[2])};
 		this.secondDate = new int[] {Integer.parseInt(secondDate[0]), Integer.parseInt(secondDate[1]), Integer.parseInt(secondDate[2])};
 
-		if (compareDates(this.firstDate, this.secondDate) < 0) {
+		int dateComparison = compareDates(this.firstDate, this.secondDate);
+		if (dateComparison < 0) {
 			int[] aux = this.firstDate;
 			this.firstDate = this.secondDate;
 			this.secondDate = aux;
 			aux = null;
 		}
+		return dateComparison;
 	}
 
 	private int compareDates(int[] date1, int[] date2) {
@@ -61,6 +63,8 @@ public class DaysInBetween {
 	}
 
 	public int diff(){
+		if (dateComparison == 0) return 0;
+
 		int res = 0;
 
 		if (secondDate[0] - firstDate[0] == 0) { // The dates are in the same year
@@ -131,15 +135,16 @@ public class DaysInBetween {
 
 //		DaysInBetween diff = new DaysInBetween("2018-06-16", "2004-06-17", true);
 
-		System.out.println("Date 1 (yyyy-mm-dd):");
+		System.out.println("Days in between dates calculator:");
+		System.out.println("1. Date 1 (yyyy-mm-dd):");
 		try {
 			String date1 = new Scanner(System.in).next(DATEPATTERN);
-			System.out.println("Date 2 (yyyy-mm-dd):");
+			System.out.println("2. Date 2 (yyyy-mm-dd):");
 
 			try {
 				String date2 = new Scanner(System.in).next(DATEPATTERN);
 				boolean inclusive = false;
-				System.out.println("Include the end date? (Y/n)");
+				System.out.println("3. Include the end date? (Y/n)");
 				Scanner inc = new Scanner(System.in);
 				if (inc.nextLine().toLowerCase().startsWith("y")) {
 					inclusive = true;
