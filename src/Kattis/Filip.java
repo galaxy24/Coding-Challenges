@@ -19,5 +19,6 @@ class Filip {
 		} else {
 			System.out.println(number2);
 		}
+		scanner.close();
 	}
 }

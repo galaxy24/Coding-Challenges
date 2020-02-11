@@ -15,6 +15,7 @@ class ADifferentProblem {
 			long second = scanner.nextLong();
 			System.out.println(Math.abs(first - second));
 		}
+		scanner.close();
 	}
 
 }

@@ -13,5 +13,6 @@ class ColdputerScience {
 			}
 		}
 		System.out.println(result);
+		scanner.close();
 	}
 }

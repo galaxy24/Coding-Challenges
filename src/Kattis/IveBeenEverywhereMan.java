@@ -23,5 +23,6 @@ class IveBeenEverywhereMan {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		IveBeenEverywhereMan iv = new IveBeenEverywhereMan(scanner);
+		scanner.close();
 	}
 }

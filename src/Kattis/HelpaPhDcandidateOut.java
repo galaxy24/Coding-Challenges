@@ -20,5 +20,6 @@ class HelpaPhDcandidateOut {
 				System.out.println(Integer.parseInt(numbers[0]) + Integer.parseInt(numbers[1]));
 			}
 		}
+		scanner.close();
 	}
 }

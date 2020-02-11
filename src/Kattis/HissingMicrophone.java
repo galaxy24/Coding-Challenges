@@ -21,5 +21,6 @@ class HissingMicrophone {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		HissingMicrophone microphone = new HissingMicrophone(sc.nextLine());
+		sc.close();
 	}
 }

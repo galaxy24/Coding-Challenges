@@ -18,5 +18,6 @@ class Aaah {
 		} else {
 			System.out.println("go");
 		}
+		scanner.close();
 	}
 }

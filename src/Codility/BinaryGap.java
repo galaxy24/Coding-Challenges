@@ -43,6 +43,6 @@ class BinaryGap {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println(solution(sc.nextInt()));
-
+		sc.close();
 	}
 }

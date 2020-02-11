@@ -1,4 +1,4 @@
-package One.com;
+package OneDotCom;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;

@@ -23,5 +23,6 @@ class LastFactorialDigit {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		LastFactorialDigit.calculate(sc);
+		sc.close();
 	}
 }

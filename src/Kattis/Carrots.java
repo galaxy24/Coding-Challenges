@@ -17,5 +17,6 @@ class Carrots {
 		Scanner sc = new Scanner(System.in);
 		sc.nextInt();
 		Carrots c = new Carrots(sc.nextInt());
+		sc.close();
 	}
 }

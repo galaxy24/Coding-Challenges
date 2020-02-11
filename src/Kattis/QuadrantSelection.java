@@ -28,5 +28,6 @@ class QuadrantSelection {
 				System.out.println("3");
 			}
 		}
+		scanner.close();
 	}
 }

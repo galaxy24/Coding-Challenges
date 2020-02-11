@@ -7,6 +7,7 @@ class Modulo {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		Modulo m = new Modulo(scanner);
+		scanner.close();
 	}
 
 	public Modulo(Scanner sc){

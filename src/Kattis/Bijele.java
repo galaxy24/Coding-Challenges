@@ -17,5 +17,6 @@ class Bijele {
 		int knights = scanner.nextInt();
 		int pawns = scanner.nextInt();
 		System.out.println((1 - kings) + " " + (1 - queens) + " " + (2 - rooks) + " " + (2 - bishops) + " " + (2 - knights) + " " + (8 - pawns));
+		scanner.close();
 	}
 }
